@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Registracija</title>
+</head>
+<body id="bodi">
+        <nav>
+            <ul>
+                <li><a href="#">Pocetna</a></li>
+                <li><a href="#">Uputstvo</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="forma">
+            <div id="error"></div>
+        <form id="form" action="#">
+            <label for="">Ime i prezime</label><br>
+            <input type="text">
+            <br>
+            <label for="">Adresa</label><br>
+            <input type="text">
+            <br>
+            <label for="">E-mail</label><br>
+            <input type="email">
+            <br>
+            <label for="">Datum rodjenja</label><br>
+            <input type="date">
+            <br>
+            <label for="">Da li imate ljubimca?</label>
+            <br>
+            <input type="radio" id="da" name="ljubimac" value="da">
+            <label for="da">Da</label><br>
+            <input type="radio" id="ne" name="ljubimac" value="ne">
+            <label for="ne">Ne</label><br>
+            <br>
+            <div class="vrsta">
+                <label for="">Vrsta zivotinje:</label>
+                <br>
+                <button id="btn">Izaberi</button>
+            </div>
+            <div id="zivotinje">
+                <button>Pas</button>
+                <button>Macka</button>
+                <button>Ptica</button>
+                <button>Glodar</button>
+                <button>Drugo</button>
+            </div>
+            <input type="text">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="vrsta.js"></script>
+</body>
+</html>
